@@ -7,13 +7,13 @@ import java.util.List;
 
 @Component
 public interface CustomerDao {
-    public List<Customer> getList();
+    List<Customer> getList();
 
-    public void saveCustomer(Customer customer);
+    void saveCustomer(Customer customer);
 
-    public Customer getCustomerById(Long id);
+    Customer getCustomerById(Long id);
 
-    public void deleteCustomer(Customer customer);
+    void deleteCustomer(Customer customer);
 
 
 }
